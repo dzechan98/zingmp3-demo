@@ -1,0 +1,95 @@
+/*Tablet && Mobbile */
+@media (max-width: 1023px) {
+  .thanhcuon {
+    overflow-y: visible;
+    width: 100%;
+  }
+  .thanhcuon::-webkit-scrollbar {
+    width: 0;
+  }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet,
+  .hide-on-mobile--tablet {
+    display: none;
+  }
+  :root {
+    --sidebar-width: 70px;
+  }
+  .zm-sidebar-wrapper__logo {
+    padding: 10px;
+  }
+  .zm-sidebar-wrapper__logo img {
+    width: 100%;
+  }
+
+  .zm-header {
+    padding: 0 29px;
+  }
+  .zm-navbar__item-link {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .search {
+    width: 200px;
+  }
+  .zm-container {
+    padding: 0 29px;
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+  .hide-on-mobile,
+  .hide-on-mobile--tablet {
+    display: none;
+  }
+  :root {
+    --sidebar-width: 0;
+  }
+  .zm-header {
+    padding: 0 10px;
+  }
+  .zm-header__list {
+    font-size: 2rem;
+    color: #fff;
+  }
+  .zm-header__avt {
+    width: 12%;
+    display: block;
+  }
+  .zm-container {
+    padding: 0 10px;
+  }
+  .zm-header__logo {
+    width: 24%;
+  }
+  .zm-header__avt img {
+    border-radius: 50%;
+  }
+  .zm-header__logo img,
+  .zm-header__avt img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .gallery,
+  .row__scrollbar-mobile {
+    overflow-x: scroll;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .gallery::-webkit-scrollbar,
+  .row__scrollbar-mobile::-webkit-scrollbar {
+    width: 0;
+  }
+  .genre-select {
+    display: none;
+  }
+  .zm-new-music-4-column__item {
+    margin-bottom: 10px;
+  }
+  .zm-section-5-column__item-text {
+    margin-bottom: 20px;
+  }
+}

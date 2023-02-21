@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+}
+:root {
+  --layout-bg: #170f23;
+  --layout-header-bg: rgba(23, 15, 35, 0.8);
+  --player-bg: #130c1c;
+  --sidebar-popup-bg: #2a213a;
+  --primary-bg: #34224f;
+  --gradient-latest-section-artist: linear-gradient(
+    286.07deg,
+    rgba(23, 15, 35, 0.95) 55.21%,
+    rgba(23, 15, 35, 0.6)
+  );
+  --alpha-layout-bg: rgba(41, 21, 71, 0.8);
+  --queue-player-popup-bg: #120822;
+  --blur-queue-bg: rgba(30, 21, 47, 0.9019607843137255);
+  --purple-primary: #9b4de0;
+  --link-text-hover: #c273ed;
+  --chart-bg-img-alpha: rgba(32, 19, 53, 0.9);
+  --sidebar-width: 240px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.zm-btn {
+  font-size: 14px;
+  border-radius: 999px;
+  line-height: normal;
+  border: 0;
+  display: inline-block;
+  font-weight: 400;
+  text-transform: none;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+.hide-on-pc {
+  display: none;
+}
