@@ -8,6 +8,7 @@ html {
   line-height: 1.6rem;
 }
 :root {
+  --header-height: 70px;
   --layout-bg: #170f23;
   --layout-header-bg: rgba(23, 15, 35, 0.8);
   --player-bg: #130c1c;

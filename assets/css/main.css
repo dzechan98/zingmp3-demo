@@ -268,7 +268,7 @@
 }
 /* container */
 .zm-container {
-  margin-top: 70px;
+  margin-top: var(--header-height);
   margin-left: var(--sidebar-width);
   padding: 0 49px;
   background-color: rgba(23, 15, 35, 0.96);
